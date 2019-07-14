@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="andela_page_colour">#3359DE</color>
+    <color name="andela_page_colour_dark">#3340EE</color>
+    <color name="front_page_btn_colour">#FFB300</color>
+</resources>

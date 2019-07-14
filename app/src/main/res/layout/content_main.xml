@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_marginTop="@dimen/dimen_content_main_topmargin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+
+    <TextView
+        android:id="@+id/id_welcome_txtvw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/welcome_txtvw_txtsize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/id_btn_about_alc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@color/front_page_btn_colour"
+        android:text="@string/btn_about_alc_text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/id_btn_my_profile"
+        app:layout_constraintStart_toStartOf="@+id/id_btn_my_profile"
+        app:layout_constraintTop_toBottomOf="@+id/id_welcome_txtvw" />
+
+    <Button
+        android:id="@+id/id_btn_my_profile"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/front_page_btn_colour"
+        android:text="@string/btn_my_profile_text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_btn_about_alc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

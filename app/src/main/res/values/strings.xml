@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ALC Phase I</string>
+
+    <string name="welcome_message">Welcome to ALC 4.0 </string>
+    <string name="btn_about_alc_text">ABOUT ALC</string>
+    <string name="btn_my_profile_text">MY PROFILE</string>
+
+    //My profile activity
+    <string name="my_name_str">David O</string>
+    <string name="track_str">Track: Android</string>
+    <string name="country_str">Country: Nigeria</string>
+    <string name="email_str">Email: david.osemwota@gmail.com</string>
+    <string name="phone_number_str">Phone number: 2348034733133</string>
+    <string name="slack_username_str">Slack Username: @dave oh</string>
+    <string name="photo_description_str">Definitely not comfortable with placing my picture here
+    </string>
+    <string name="ssl_error_cert_str"> SSL certificate error \nClick proceed to ignore </string>
+
+</resources>

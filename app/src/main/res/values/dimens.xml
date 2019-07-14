@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_txtvw_txtsize">32sp</dimen>
+    <dimen name="dimen_content_main_topmargin">16dp</dimen>
+    <dimen name="dimen_profile_image_sides">200dp</dimen>
+    <dimen name="profile_text_size">23sp</dimen>
+</resources>
